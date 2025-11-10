@@ -9,7 +9,7 @@ import * as fs from 'fs';
 import cliProgressBar from 'cli-progress';
 import { PDFLoader } from '@langchain/community/document_loaders/fs/pdf';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { PineconeStore } from '@langchain/pinecone';
+import { PineconeStore } from "@langchain/community/vectorstores/pinecone";
 import * as dotenv from 'dotenv';
 import { AIMessage, BaseMessage, HumanMessage } from '@langchain/core/messages';
 import { formatDocumentsAsString } from 'langchain/util/document';
